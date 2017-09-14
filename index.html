@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel='stylesheet'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel='stylesheet'>
+  </head>
+  <body id='page-top'>
+
+    <nav class="navbar">
+      <div class='container'>
+
+        <a class="navbar-brand">Meet & Greet</a>
+        <div class="navbar-right justify-content-end">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+      </div>
+    </nav>
+
+    <section id='about'>
+      <div class='container text-center'>
+        <h1 class='text-center name'>Rebecca E. Tay</h1>
+        <hr class="star-light">
+
+        <div class='row'>
+        <div class='col-sm-8 col-sm-offset-2'>
+          <h3 class='text-center'> Full Stack Web Developer</h3>
+          <p class='text-center aboutme'>
+            Hello there! Prior to GA, I was learning from online sites and got hooked on how little bits of syntax can come together to produce something so beautiful. I have learnt so much in these three months, and have made some neat projects. I like working with details and aspire to produce something which value-adds to peoples' lives. Going forward, I hope to stretch my limits and grow day by day!
+          </p>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id='portfolio'>
+      <div class='container'>
+        <h1 class='text-center'>Portfolio</h1>
+        <hr class="star-primary">
+        <div class='row'>
+        <div class='col-sm-8 col-sm-offset-2'>
+
+          <h3 class='text-center'>Bucket List</h3>
+          <a href='https://bucket--list.herokuapp.com/' target="_blank">
+            <img class='thumbnail' src='/img/bucketlist.png' alt='Bucket List'>
+          </a>
+          <p><strong>Description: </strong>A travel planning site where users can create highly customized itineraries, add photos and personal experiences and share their journeys with other users. This was a group project and I built the backend using Rails API with CRUD functionality and JSON web tokens for user authentication. The challenges in this project were securing the API endpoints and passing state changes from parent to child components and vice versa. Going forward, we intend to implement Redux to manage state changes and add testing.</p>
+          <p><strong>Built with: </strong>React/Rails/PostgreSQL</p>
+
+          <h3 class='text-center'>Magic Mango</h3>
+          <a href='https://magicmango.herokuapp.com/' target="_blank">
+            <img class='thumbnail' src='/img/magicmango.png' alt='Magic Mango'>
+          </a>
+          <p><strong>Description: </strong>A fresh take on DOTA2 strategy sites. Users can create and save hero builds depending on their playstyle and the current metagame. To obtain hero and item details, I fetched data from the DOTA2 API and displayed the images for users to click on. One of the challenges in this project was changing the contents of the form as users clicked on images to add or remove items. I solved this problem by adding hidden fields in the form.</p>
+          <p><strong>Built with: </strong>JQuery/Node/Express/MongoDB</p>
+
+          <h3 class='text-center'>KryptoKnight</h3>
+          <a href='https://kryptoknight.herokuapp.com/' target="_blank">
+            <img class='thumbnail' src='/img/kryptoknight.png' alt='KryptoKnight'>
+          </a>
+          <p><strong>Description: </strong>A cryptocurrency trading tool that provides budding investors with technical analysis, a social trading feature and a virtual brokerage. This was a group project and I focused on the technical analysis feature. I fetched cryptocurrency data from the Cryptocompare API and manipulated the data before using MetricGraphics.js to perform charting. I got a lot of practice with object and array manipulation to calculate moving averages and plot multiple lines.</p>
+          <p><strong>Built with: </strong>Ruby on Rails/PostgreSQL</p>
+
+          <h3 class='text-center'>Build-A-Burger</h3>
+          <a href='https://rebeccatay92.github.io/project-1/' target="_blank">
+            <img class='thumbnail' src='/img/burger.png' alt='Build-A-Burger'>
+          </a>
+          <p><strong>Description: </strong>My very first foray into coding. Users click on ingredients to make as many burgers as they can within the time limit. I initially had a lot of issues with the positioning of ingredients to overlap each other nicely, and with the layout of the starting and ending overlay. It was then that I discovered the magic of negative margins and z-index.</p>
+          <p><strong>Built with: </strong>HTML/CSS/JS</p>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id='contact'>
+      <div class='container'>
+        <h1 class='text-center'>Contact</h1>
+        <hr class="star-light">
+        <div class='row'>
+        <div class='col-sm-8 col-sm-offset-2'>
+          <div class'row'>
+            <div class='col-sm-4 sites'>
+            <p>LinkedIn: </p>
+            <p>GitHub:</p>
+            <p>GA profile:</p>
+            <p>Email:</p>
+            </div>
+            <div class='col-sm-8 links'>
+              <p><a target="_blank" href='https://www.linkedin.com/in/rebeccatay92/'>https://www.linkedin.com/in/rebeccatay92/</a></p>
+              <p><a target="_blank" href='https://github.com/rebeccatay92'>https://github.com/rebeccatay92</a></p>
+              <p><a target="_blank" href='https://profiles.generalassemb.ly/rebeccatay92'>https://profiles.generalassemb.ly/rebeccatay92</a></p>
+              <p>rebeccatay92@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class='container'>
+        <h3 class='text-center'>Copyright &copy 2017 Rebecca Tay. Made with Bootstrap</h3>
+      </div>
+    </footer>
+  </body>
+</html>
