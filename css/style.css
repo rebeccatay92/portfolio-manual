@@ -53,6 +53,7 @@ h1 {
   font-size: 4em;
 }
 
+
 h3 {
   font-family: 'Montserrat';
   font-weight: 700;
@@ -65,9 +66,27 @@ p {
   text-align: justify;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+}
+
 section {
   padding: 50px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 5px;
+  }
 }
 
 hr.star-light,
