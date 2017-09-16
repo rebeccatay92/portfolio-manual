@@ -130,13 +130,6 @@ hr.star-primary:after {
   padding-top: 150px;
 }
 
-/*#about h1, #contact h1 {
-  color: black;
-}*/
-/*#about h3 {
-  color: white;
-}*/
-
 #about p {
   font-family: 'Lato';
   margin-top: 20px;
@@ -164,6 +157,23 @@ hr.star-primary:after {
   padding-top: 50px;
   height: 50vh;
 }
+
+@media only screen and (max-width: 768px) {
+  #contact {
+    height: auto;
+  }
+  #contact p {
+    font-size: 1em;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .links {
+    padding-left: 20%;
+  }
+}
+
 #contact .sites p {
   font-family: 'Lato'
   font-weight: 700;
